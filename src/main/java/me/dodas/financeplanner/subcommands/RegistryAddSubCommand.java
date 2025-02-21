@@ -127,7 +127,6 @@ public class RegistryAddSubCommand implements SubCommand{
                     revenue.setName(name);
                     revenue.setValue(value);
                     mr.addRevenue(revenue);
-                    System.out.println("entrou no type");
                 }
     
                 if(type.equals("expense")){
@@ -135,7 +134,7 @@ public class RegistryAddSubCommand implements SubCommand{
                     expense.setDescription(description);
                     expense.setName(name);
                     expense.setValue(value);
-                    mr.addRevenue(expense);
+                    mr.addExpense(expense);
                 }
     
             } 
